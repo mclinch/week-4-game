@@ -1,0 +1,73 @@
+body {
+	background-color: lightblue;
+	margin: auto;
+	width: 920px;
+	background-image: url("../images/wov.png");
+}
+
+.title {
+	background-color: orange;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	width: 510px;
+	margin-bottom: 10px;
+}
+
+.directions {
+	background-color: tan;
+	text-align: center;
+	font-size: 15px;
+	color: #008080;
+	width: 510px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.randomNumber {
+	float: left;
+	background-color: lightgreen;
+	text-align: center;
+	padding: 30px 30px 45px 20px;
+	margin-right: 10px;
+	width: 300px;
+}
+
+.winLoss {
+	float: left;
+	background-color: teal;
+	color: white;
+	padding: 10px 20px 20px 20px;
+	width: 200px;
+}
+
+#clear {
+	clear: both;
+}
+.crystal {
+	/*clear: both;*/
+	float: left;
+	background-color: lightgrey;
+	padding: 10px;
+	margin: 10px 10px 10px 10px;
+}
+
+.crystal-img {
+	height: 90px;
+}
+
+.total {
+	clear: both;
+	background-color: #5BD3FF;
+	padding: 10px;
+	width: 510px;
+}
+
+.totalNumber {
+	background-color: #4BFFFF;
+	text-align: center;
+	width: 510px;
+	padding: 20px;
+	margin-top: 10px;
+
+}
