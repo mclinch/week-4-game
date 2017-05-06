@@ -20,6 +20,8 @@ $(document).ready(function(){
     var emeraldNum = (Math.ceil(Math.random() * 12)); 
     scoreTotal = 0;
     $('#userTotal').html(scoreTotal);
+    setTimeout(function(){$('#youWin').html("Your Total is: ");},3000)
+    // $('#youWin').html("Your Total is: ");
     
   }
   
