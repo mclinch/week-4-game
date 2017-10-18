@@ -56,10 +56,7 @@ $(document).ready(function(){
   });
 
     check();
-        // if (randomNumber < scoreTotal) {
-        //   $('#youWin').html("Your otal is:");
-        //   check();
-        // } 
+
 
   function check() {
     console.log('randomNumber ' +  randomNumber);
@@ -84,48 +81,6 @@ $(document).ready(function(){
 
   game()
 
-
-  
-
-
-
-//    // When the user presses a key, it will run the following function...
-// document.onkeypress = function(event) {
-//     var userGuess = event.key;
-//     console.log(event)
-
-//     if(userGuess === chooseLetter){
-//         reset();
-//         wins++;
-//         alert("Your a Psychic! You win!")
-//         console.log(chooseLetter)
-//     } else {
-//     if (userPastGuess.indexOf(userGuess) >= 0) {
-//       alert("Please Choose another Letter.")
-//       return;
-//     }    
-//     userPastGuess.push(userGuess);
-//     console.log(userPastGuess);
-
-
-    
-//     if (guesses > 0) {
-//         guesses--;
-//         // letters.push(userGuess);
-//     }
-
-//     if(guesses === 0){
-//         losses++;
-//         reset();
-//         console.log(chooseLetter)
-     
-
-//     }
-   
-//     document.getElementById('wins').innerHTML = "Wins: " + wins;
-//     document.getElementById('losses').innerHTML = "Losses: " + losses;
-//     document.getElementById('guessesLeft').innerHTML = "Guesses left: " + guesses;
-//     document.getElementById('user-guess').innerHTML = userPastGuess.join(', ');
 
 
 });
